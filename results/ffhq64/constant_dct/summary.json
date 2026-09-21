@@ -1,0 +1,54 @@
+{
+  "baseline": "FFHQ-64 constant-amplitude DCT student, 4096 samples, transfer fine-tuned to 300 kimg",
+  "constant_power": 0.3711280526416022,
+  "equivalent_score": 0.6092028009141145,
+  "total_shift_coefficient": 1.1133841579248065,
+  "detections": 1,
+  "total_runs": 4,
+  "rows": [
+    {
+      "query_seed_base": "20290000",
+      "query_count": 1024,
+      "per_group": 256,
+      "delta": 0.0834790182634606,
+      "p": 0.003351188135706775,
+      "decision_p005": true,
+      "pearson_r": 0.1020365974908773,
+      "pearson_p": 0.000538269164473226,
+      "random_key_fpr": 0.003
+    },
+    {
+      "query_seed_base": "20300000",
+      "query_count": 1024,
+      "per_group": 256,
+      "delta": 0.032295040757162496,
+      "p": 0.14041903519026197,
+      "decision_p005": false,
+      "pearson_r": 0.026705730712789935,
+      "pearson_p": 0.19663787266494046,
+      "random_key_fpr": 0.007
+    },
+    {
+      "query_seed_base": "20310000",
+      "query_count": 1024,
+      "per_group": 256,
+      "delta": 0.007843909108487424,
+      "p": 0.4026121030673957,
+      "decision_p005": false,
+      "pearson_r": 0.01817113294845451,
+      "pearson_p": 0.28068290964686476,
+      "random_key_fpr": 0.004
+    },
+    {
+      "query_seed_base": "20320000",
+      "query_count": 1024,
+      "per_group": 256,
+      "delta": 0.007372342894086614,
+      "p": 0.4037429528638844,
+      "decision_p005": false,
+      "pearson_r": -0.008868498784797651,
+      "pearson_p": 0.6115843981339208,
+      "random_key_fpr": 0.004
+    }
+  ]
+}

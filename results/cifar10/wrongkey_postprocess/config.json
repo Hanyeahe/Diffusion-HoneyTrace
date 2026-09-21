@@ -1,0 +1,17 @@
+{
+  "teacher_model_dir": "ddpm-cifar-32",
+  "student_unet_dir": "outputs/student_protected_30000_s003_fromscratch_100k/unet_ema_final",
+  "watermark_state": "outputs/dataset_protected_30000_sigmoid_K8_s003_L50_1000step/watermark_state.pt",
+  "selected_key_queries": "outputs/eval_key_queries_10000c_curve_20_1000_ema_30k_reuse/selected_key_queries.csv",
+  "out_dir": "outputs/wrongkey_postprocess_protected_student_30k_1000q_axisfix",
+  "budgets": [
+    400,
+    650,
+    1000
+  ],
+  "batch_size": 128,
+  "num_steps": 1000,
+  "fp16": true,
+  "random_repeats": 2000,
+  "save_images": false
+}

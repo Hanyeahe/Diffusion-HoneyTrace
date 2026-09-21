@@ -1,0 +1,27 @@
+{
+  "reference": [
+    "teacher_clean",
+    "outputs/featurepool_dataset_clean_4096_d20_20/images"
+  ],
+  "compare": [
+    [
+      "teacher_protected",
+      "outputs/featurepool_dataset_protected_4096_s300_d20_20/images"
+    ],
+    [
+      "student_clean_150k",
+      "outputs/fid_images_student_clean_150k_v2_4096"
+    ],
+    [
+      "student_protected_300k",
+      "outputs/fid_images_student_protected_300k_4096"
+    ]
+  ],
+  "num_images": 4096,
+  "image_size": 64,
+  "feature_batch_size": 64,
+  "kid_subsets": 20,
+  "kid_subset_size": 1000,
+  "seed": 20260907,
+  "device": "cuda"
+}

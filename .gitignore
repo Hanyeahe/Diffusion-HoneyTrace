@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Editors and OS
+.DS_Store
+.idea/
+.vscode/
+
+# Generated data and experiment artifacts
+outputs/
+data/
+datasets/
+models/
+checkpoints/
+wandb/
+runs/
+
+# Model and state files
+*.pt
+*.pth
+*.pkl
+*.ckpt
+*.safetensors
+*.bin
+
+# Generated media
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.npz
+
+# Archives and logs
+*.zip
+*.tar
+*.tar.gz
+*.log

@@ -1,0 +1,23 @@
+{
+  "teacher_model_dir": "ddpm-cifar-32",
+  "teacher_feature_dir": "outputs/fid_kid_inception_2000_students_teacher_real",
+  "score_csv": "outputs/dataset_protected_30000_sigmoid_K8_s003_L50_1000step/source15k_scores_and_projection.csv",
+  "watermark_state": "outputs/dataset_protected_15000_sigmoid_K8_s003_L50_1000step/watermark_state.pt",
+  "protected_student_unet_dir": "outputs/student_protected_30000_s003_fromscratch_100k/unet_ema_final",
+  "clean_student_unet_dir": "outputs/student_clean_30000_fromscratch_100k/unet_ema_final",
+  "constant_student_unet_dir": "outputs/student_constant_dct_30000_energy_s003_fromscratch_100k/unet_ema_final",
+  "out_dir": "outputs/output_feature_matched_margin_3200_q200_400_s20260914",
+  "num_student_images": 6400,
+  "split_budgets": [
+    200,
+    400,
+    800
+  ],
+  "batch_size": 128,
+  "feature_batch_size": 64,
+  "num_steps": 1000,
+  "seed": 20260914,
+  "train_fraction": 0.75,
+  "fp16": true,
+  "force_resample": false
+}

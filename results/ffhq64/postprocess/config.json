@@ -1,0 +1,13 @@
+{
+  "image_dir": "outputs/fid_images_student_protected_300k_4096",
+  "state_path": "outputs/featurepool_dataset_protected_4096_s300_d20_20/featurepool_state.pt",
+  "out_dir": "outputs/postprocess_student_protected_300k_key1024_q256_d20_20",
+  "query_count": 1024,
+  "per_group": 256,
+  "batch_size": 64,
+  "image_size": 64,
+  "dct_u": 20,
+  "dct_v": 20,
+  "wrong_dct": "8,9;31,29;24,24",
+  "seed": 20260907
+}

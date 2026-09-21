@@ -1,0 +1,10 @@
+{
+  "alpha": 0.005,
+  "decision_rule": "student delta > 0 and one-sided Welch p < 0.005",
+  "first_significant_budget": 400,
+  "first_significant_per_group": 200,
+  "first_significant_p": 0.0031991689980189076,
+  "first_significant_delta": 0.2772557532228529,
+  "stable_from_budget": 400,
+  "stable_from_per_group": 200
+}

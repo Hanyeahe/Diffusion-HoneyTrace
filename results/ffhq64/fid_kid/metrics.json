@@ -1,0 +1,36 @@
+{
+  "backend": "torchvision_inception_v3_imagenet",
+  "num_images": 4096,
+  "rows": [
+    {
+      "reference": "teacher_clean",
+      "model": "teacher_protected",
+      "num_images": 4096,
+      "fid_inception": 6.7038116455078125,
+      "kid_inception_mean": 0.00072882852405598,
+      "kid_inception_std": 0.00017573970766446257,
+      "kid_x1000_mean": 0.72882852405598,
+      "kid_x1000_std": 0.17573970766446256
+    },
+    {
+      "reference": "teacher_clean",
+      "model": "student_clean_150k",
+      "num_images": 4096,
+      "fid_inception": 6.542083740234375,
+      "kid_inception_mean": 0.0009313931242948437,
+      "kid_inception_std": 0.00026823006583143134,
+      "kid_x1000_mean": 0.9313931242948437,
+      "kid_x1000_std": 0.26823006583143133
+    },
+    {
+      "reference": "teacher_clean",
+      "model": "student_protected_300k",
+      "num_images": 4096,
+      "fid_inception": 7.2829437255859375,
+      "kid_inception_mean": 0.0014758236211165788,
+      "kid_inception_std": 0.0003435403448263839,
+      "kid_x1000_mean": 1.4758236211165787,
+      "kid_x1000_std": 0.3435403448263839
+    }
+  ]
+}

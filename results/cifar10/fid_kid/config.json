@@ -1,0 +1,19 @@
+{
+  "teacher_model_dir": "ddpm-cifar-32",
+  "student_protected_unet_dir": "outputs/student_protected_30000_s003_fromscratch_100k/unet_ema_final",
+  "student_clean_unet_dir": "outputs/student_clean_30000_fromscratch_100k/unet_ema_final",
+  "teacher_clean_image_dir": "outputs/dataset_clean_30000_1000step_seed20263001/images_clean",
+  "teacher_protected_image_dir": "outputs/dataset_protected_30000_sigmoid_K8_s003_L50_1000step/images_protected",
+  "cifar_root": null,
+  "out_dir": "outputs/fid_kid_inception_2000_students_teacher_real",
+  "reference_mode": "teacher_both",
+  "num_images": 2000,
+  "batch_size": 128,
+  "feature_batch_size": 64,
+  "num_steps": 1000,
+  "seed": 20260907,
+  "fp16": true,
+  "kid_subsets": 20,
+  "kid_subset_size": 500,
+  "force_resample_students": false
+}

@@ -1,0 +1,1089 @@
+{
+  "candidate_count": 10000,
+  "max_budget": 1000,
+  "budgets": [
+    {
+      "budget": 20,
+      "per_group": 10,
+      "low_score_mean": 0.05874264873564243,
+      "high_score_mean": 0.9533110141754151,
+      "low_score_range": [
+        0.04476912319660187,
+        0.0622088685631752
+      ],
+      "high_score_range": [
+        0.9477521181106567,
+        0.9621428847312927
+      ],
+      "teacher_clean": {
+        "low_projection_mean": 0.6598111987113953,
+        "high_projection_mean": -0.15643483847379686,
+        "high_low_delta": -0.8162460371851921,
+        "one_sided_t": -1.364376110640983,
+        "one_sided_p": 0.8997978889569275,
+        "two_sided_t": -1.364376110640983,
+        "two_sided_p": 0.20040422208614492,
+        "cohen_d": -0.6101675460540025,
+        "decision_p001": false,
+        "decision_p01": false,
+        "decision_p05": false
+      },
+      "teacher_protected": {
+        "low_projection_mean": 0.6617611110210418,
+        "high_projection_mean": 0.5417317509651184,
+        "high_low_delta": -0.12002936005592346,
+        "one_sided_t": -0.20053256328332533,
+        "one_sided_p": 0.5775941884619358,
+        "two_sided_t": -0.20053256328332533,
+        "two_sided_p": 0.8448116230761284,
+        "cohen_d": -0.08968088864075877,
+        "decision_p001": false,
+        "decision_p01": false,
+        "decision_p05": false
+      },
+      "student": {
+        "low_projection_mean": -0.1466650038957596,
+        "high_projection_mean": 0.3515606358647346,
+        "high_low_delta": 0.4982256397604942,
+        "one_sided_t": 0.8213344291177799,
+        "one_sided_p": 0.21532548521135758,
+        "two_sided_t": 0.8213344291177799,
+        "two_sided_p": 0.43065097042271516,
+        "cohen_d": 0.36731192315366773,
+        "decision_p001": false,
+        "decision_p01": false,
+        "decision_p05": false
+      }
+    },
+    {
+      "budget": 40,
+      "per_group": 20,
+      "low_score_mean": 0.062135444954037666,
+      "high_score_mean": 0.9479377299547196,
+      "low_score_range": [
+        0.04476912319660187,
+        0.06867609918117523
+      ],
+      "high_score_range": [
+        0.9403363466262817,
+        0.9621428847312927
+      ],
+      "teacher_clean": {
+        "low_projection_mean": 0.7518255114555359,
+        "high_projection_mean": -0.04090290144085884,
+        "high_low_delta": -0.7927284128963947,
+        "one_sided_t": -1.7773024967064217,
+        "one_sided_p": 0.9559955633475544,
+        "two_sided_t": -1.7773024967064217,
+        "two_sided_p": 0.08800887330489128,
+        "cohen_d": -0.5620323980696202,
+        "decision_p001": false,
+        "decision_p01": false,
+        "decision_p05": false
+      },
+      "teacher_protected": {
+        "low_projection_mean": 0.7540746182203293,
+        "high_projection_mean": 0.6568942219018936,
+        "high_low_delta": -0.09718039631843567,
+        "one_sided_t": -0.21771796923888825,
+        "one_sided_p": 0.585271394439336,
+        "two_sided_t": -0.21771796923888825,
+        "two_sided_p": 0.829457211121328,
+        "cohen_d": -0.06884846703413627,
+        "decision_p001": false,
+        "decision_p01": false,
+        "decision_p05": false
+      },
+      "student": {
+        "low_projection_mean": 0.13163471594452858,
+        "high_projection_mean": 0.34062025249004363,
+        "high_low_delta": 0.20898553654551505,
+        "one_sided_t": 0.5538999027680916,
+        "one_sided_p": 0.2922552787031212,
+        "two_sided_t": 0.5538999027680916,
+        "two_sided_p": 0.5845105574062424,
+        "cohen_d": 0.17515852884929736,
+        "decision_p001": false,
+        "decision_p01": false,
+        "decision_p05": false
+      }
+    },
+    {
+      "budget": 60,
+      "per_group": 30,
+      "low_score_mean": 0.06579706544677416,
+      "high_score_mean": 0.944385439157486,
+      "low_score_range": [
+        0.04476912319660187,
+        0.07640715688467026
+      ],
+      "high_score_range": [
+        0.9357320666313171,
+        0.9621428847312927
+      ],
+      "teacher_clean": {
+        "low_projection_mean": 0.6658473253250122,
+        "high_projection_mean": -0.07745946968595187,
+        "high_low_delta": -0.7433067950109641,
+        "one_sided_t": -2.199926587508487,
+        "one_sided_p": 0.9830906453053887,
+        "two_sided_t": -2.199926587508487,
+        "two_sided_p": 0.03381870938922262,
+        "cohen_d": -0.5680186024199522,
+        "decision_p001": false,
+        "decision_p01": false,
+        "decision_p05": false
+      },
+      "teacher_protected": {
+        "low_projection_mean": 0.6683699573079745,
+        "high_projection_mean": 0.6083377244571845,
+        "high_low_delta": -0.06003223285079007,
+        "one_sided_t": -0.17789956217152408,
+        "one_sided_p": 0.5701357855196536,
+        "two_sided_t": -0.17789956217152408,
+        "two_sided_p": 0.8597284289606928,
+        "cohen_d": -0.04593346943919359,
+        "decision_p001": false,
+        "decision_p01": false,
+        "decision_p05": false
+      },
+      "student": {
+        "low_projection_mean": 0.20113194833199183,
+        "high_projection_mean": 0.32921716310083865,
+        "high_low_delta": 0.12808521476884682,
+        "one_sided_t": 0.43162625608296845,
+        "one_sided_p": 0.3341653084292199,
+        "two_sided_t": 0.43162625608296845,
+        "two_sided_p": 0.6683306168584398,
+        "cohen_d": 0.11144542010634632,
+        "decision_p001": false,
+        "decision_p01": false,
+        "decision_p05": false
+      }
+    },
+    {
+      "budget": 80,
+      "per_group": 40,
+      "low_score_mean": 0.06892574373632669,
+      "high_score_mean": 0.9416690304875374,
+      "low_score_range": [
+        0.04476912319660187,
+        0.07915441691875458
+      ],
+      "high_score_range": [
+        0.9311767220497131,
+        0.9621428847312927
+      ],
+      "teacher_clean": {
+        "low_projection_mean": 0.5531320564448834,
+        "high_projection_mean": -0.15828161388635636,
+        "high_low_delta": -0.7114136703312397,
+        "one_sided_t": -2.6396046946097758,
+        "one_sided_p": 0.9945589775682704,
+        "two_sided_t": -2.6396046946097758,
+        "two_sided_p": 0.010882044863459176,
+        "cohen_d": -0.590233553087503,
+        "decision_p001": false,
+        "decision_p01": false,
+        "decision_p05": false
+      },
+      "teacher_protected": {
+        "low_projection_mean": 0.5560263875871897,
+        "high_projection_mean": 0.5252940284088254,
+        "high_low_delta": -0.030732359178364255,
+        "one_sided_t": -0.11413646636042768,
+        "one_sided_p": 0.5452185882382211,
+        "two_sided_t": -0.11413646636042768,
+        "two_sided_p": 0.9095628235235579,
+        "cohen_d": -0.025521689749353427,
+        "decision_p001": false,
+        "decision_p01": false,
+        "decision_p05": false
+      },
+      "student": {
+        "low_projection_mean": 0.1581031758338213,
+        "high_projection_mean": 0.23507354250177742,
+        "high_low_delta": 0.07697036666795612,
+        "one_sided_t": 0.318995103399984,
+        "one_sided_p": 0.3754710315850023,
+        "two_sided_t": 0.318995103399984,
+        "two_sided_p": 0.7509420631700046,
+        "cohen_d": 0.07132947356919385,
+        "decision_p001": false,
+        "decision_p01": false,
+        "decision_p05": false
+      }
+    },
+    {
+      "budget": 100,
+      "per_group": 50,
+      "low_score_mean": 0.0712785342335701,
+      "high_score_mean": 0.9390380799770355,
+      "low_score_range": [
+        0.04476912319660187,
+        0.0817180946469307
+      ],
+      "high_score_range": [
+        0.9261533617973328,
+        0.9621428847312927
+      ],
+      "teacher_clean": {
+        "low_projection_mean": 0.512169217467308,
+        "high_projection_mean": -0.13444636821746825,
+        "high_low_delta": -0.6466155856847763,
+        "one_sided_t": -2.5687399840178555,
+        "one_sided_p": 0.9937344534227238,
+        "two_sided_t": -2.5687399840178555,
+        "two_sided_p": 0.012531093154552336,
+        "cohen_d": -0.5137479968035712,
+        "decision_p001": false,
+        "decision_p01": false,
+        "decision_p05": false
+      },
+      "teacher_protected": {
+        "low_projection_mean": 0.5152622857689857,
+        "high_projection_mean": 0.546738120317459,
+        "high_low_delta": 0.03147583454847336,
+        "one_sided_t": 0.12503598921718356,
+        "one_sided_p": 0.4504419062294336,
+        "two_sided_t": 0.12503598921718356,
+        "two_sided_p": 0.9008838124588672,
+        "cohen_d": 0.025007197843436708,
+        "decision_p001": false,
+        "decision_p01": false,
+        "decision_p05": false
+      },
+      "student": {
+        "low_projection_mean": 0.13735930636525154,
+        "high_projection_mean": 0.24458141557872295,
+        "high_low_delta": 0.10722210921347142,
+        "one_sided_t": 0.4944458875562271,
+        "one_sided_p": 0.31128670885120485,
+        "two_sided_t": 0.4944458875562271,
+        "two_sided_p": 0.6225734177024097,
+        "cohen_d": 0.0988891775112454,
+        "decision_p001": false,
+        "decision_p01": false,
+        "decision_p05": false
+      }
+    },
+    {
+      "budget": 150,
+      "per_group": 75,
+      "low_score_mean": 0.07635744164387386,
+      "high_score_mean": 0.933326739470164,
+      "low_score_range": [
+        0.04476912319660187,
+        0.09032239764928818
+      ],
+      "high_score_range": [
+        0.9181152582168579,
+        0.9621428847312927
+      ],
+      "teacher_clean": {
+        "low_projection_mean": 0.440893718401591,
+        "high_projection_mean": -0.06343175311883291,
+        "high_low_delta": -0.5043254715204238,
+        "one_sided_t": -2.528437308598748,
+        "one_sided_p": 0.9934996214380564,
+        "two_sided_t": -2.528437308598748,
+        "two_sided_p": 0.01300075712388727,
+        "cohen_d": -0.412892083512196,
+        "decision_p001": false,
+        "decision_p01": false,
+        "decision_p05": false
+      },
+      "teacher_protected": {
+        "low_projection_mean": 0.44459357162316643,
+        "high_projection_mean": 0.6079172203938167,
+        "high_low_delta": 0.16332364877065025,
+        "one_sided_t": 0.8197073546911164,
+        "one_sided_p": 0.2071567076817183,
+        "two_sided_t": 0.8197073546911164,
+        "two_sided_p": 0.4143134153634366,
+        "cohen_d": 0.1338576504933215,
+        "decision_p001": false,
+        "decision_p01": false,
+        "decision_p05": false
+      },
+      "student": {
+        "low_projection_mean": 0.18239638755718868,
+        "high_projection_mean": 0.33830330446362494,
+        "high_low_delta": 0.15590691690643627,
+        "one_sided_t": 0.9201523561329497,
+        "one_sided_p": 0.17976618674875866,
+        "two_sided_t": 0.9201523561329497,
+        "two_sided_p": 0.3595323734975173,
+        "cohen_d": 0.15026025054302894,
+        "decision_p001": false,
+        "decision_p01": false,
+        "decision_p05": false
+      }
+    },
+    {
+      "budget": 200,
+      "per_group": 100,
+      "low_score_mean": 0.08052664950489997,
+      "high_score_mean": 0.9284874373674392,
+      "low_score_range": [
+        0.04476912319660187,
+        0.09501256048679352
+      ],
+      "high_score_range": [
+        0.9107192754745483,
+        0.9621428847312927
+      ],
+      "teacher_clean": {
+        "low_projection_mean": 0.3783241744339466,
+        "high_projection_mean": -0.029580613747239113,
+        "high_low_delta": -0.40790478818118575,
+        "one_sided_t": -2.321205519331983,
+        "one_sided_p": 0.9891399980982771,
+        "two_sided_t": -2.321205519331983,
+        "two_sided_p": 0.021720003803445753,
+        "cohen_d": -0.3282680326494574,
+        "decision_p001": false,
+        "decision_p01": false,
+        "decision_p05": false
+      },
+      "teacher_protected": {
+        "low_projection_mean": 0.3825850321352482,
+        "high_projection_mean": 0.6393103759735823,
+        "high_low_delta": 0.2567253438383341,
+        "one_sided_t": 1.4621227155327727,
+        "one_sided_p": 0.07297710387507214,
+        "two_sided_t": 1.4621227155327727,
+        "two_sided_p": 0.14595420775014428,
+        "cohen_d": 0.20677537741602262,
+        "decision_p001": false,
+        "decision_p01": false,
+        "decision_p05": false
+      },
+      "student": {
+        "low_projection_mean": 0.18562613599002362,
+        "high_projection_mean": 0.41891486536711453,
+        "high_low_delta": 0.23328872937709091,
+        "one_sided_t": 1.6348021461188214,
+        "one_sided_p": 0.0520646919050674,
+        "two_sided_t": 1.6348021461188214,
+        "two_sided_p": 0.1041293838101348,
+        "cohen_d": 0.231195936683788,
+        "decision_p001": false,
+        "decision_p01": false,
+        "decision_p05": false
+      }
+    },
+    {
+      "budget": 250,
+      "per_group": 125,
+      "low_score_mean": 0.08398394697904586,
+      "high_score_mean": 0.9242578172683715,
+      "low_score_range": [
+        0.04476912319660187,
+        0.10086368024349213
+      ],
+      "high_score_range": [
+        0.903919517993927,
+        0.9621428847312927
+      ],
+      "teacher_clean": {
+        "low_projection_mean": 0.25211722412705423,
+        "high_projection_mean": -0.05466985660791397,
+        "high_low_delta": -0.3067870807349682,
+        "one_sided_t": -1.9109912456764802,
+        "one_sided_p": 0.9711768547565627,
+        "two_sided_t": -1.9109912456764802,
+        "two_sided_p": 0.0576462904868745,
+        "cohen_d": -0.24172339699920303,
+        "decision_p001": false,
+        "decision_p01": false,
+        "decision_p05": false
+      },
+      "teacher_protected": {
+        "low_projection_mean": 0.2567049223780632,
+        "high_projection_mean": 0.6082806641459465,
+        "high_low_delta": 0.3515757417678833,
+        "one_sided_t": 2.1898110216808075,
+        "one_sided_p": 0.014932438380407262,
+        "two_sided_t": 2.1898110216808075,
+        "two_sided_p": 0.029864876760814524,
+        "cohen_d": 0.2769916189540685,
+        "decision_p001": false,
+        "decision_p01": false,
+        "decision_p05": true
+      },
+      "student": {
+        "low_projection_mean": 0.16644905549287797,
+        "high_projection_mean": 0.4002698025405407,
+        "high_low_delta": 0.2338207470476627,
+        "one_sided_t": 1.853173810913187,
+        "one_sided_p": 0.032668290334417656,
+        "two_sided_t": 1.853173810913187,
+        "two_sided_p": 0.06533658066883531,
+        "cohen_d": 0.23441000570639486,
+        "decision_p001": false,
+        "decision_p01": false,
+        "decision_p05": true
+      }
+    },
+    {
+      "budget": 300,
+      "per_group": 150,
+      "low_score_mean": 0.08715184554457664,
+      "high_score_mean": 0.9202964588006337,
+      "low_score_range": [
+        0.04476912319660187,
+        0.10472100973129272
+      ],
+      "high_score_range": [
+        0.8981389403343201,
+        0.9621428847312927
+      ],
+      "teacher_clean": {
+        "low_projection_mean": 0.2522570100675027,
+        "high_projection_mean": -0.01585900604724884,
+        "high_low_delta": -0.2681160161147515,
+        "one_sided_t": -1.8644807083531794,
+        "one_sided_p": 0.968186475446475,
+        "two_sided_t": -1.8644807083531794,
+        "two_sided_p": 0.06362704910705012,
+        "cohen_d": -0.21529168777331448,
+        "decision_p001": false,
+        "decision_p01": false,
+        "decision_p05": false
+      },
+      "teacher_protected": {
+        "low_projection_mean": 0.25719952166080473,
+        "high_projection_mean": 0.6434149583677451,
+        "high_low_delta": 0.38621543670694036,
+        "one_sided_t": 2.6850772748182226,
+        "one_sided_p": 0.00391019208263018,
+        "two_sided_t": 2.6850772748182226,
+        "two_sided_p": 0.00782038416526036,
+        "cohen_d": 0.3100460174822495,
+        "decision_p001": false,
+        "decision_p01": true,
+        "decision_p05": true
+      },
+      "student": {
+        "low_projection_mean": 0.1847213632861773,
+        "high_projection_mean": 0.437185948168238,
+        "high_low_delta": 0.2524645848820607,
+        "one_sided_t": 2.257578452090028,
+        "one_sided_p": 0.012424011451956112,
+        "two_sided_t": 2.257578452090028,
+        "two_sided_p": 0.024848022903912224,
+        "cohen_d": 0.26068270540617533,
+        "decision_p001": false,
+        "decision_p01": false,
+        "decision_p05": true
+      }
+    },
+    {
+      "budget": 350,
+      "per_group": 175,
+      "low_score_mean": 0.0899404616015298,
+      "high_score_mean": 0.9166705666269575,
+      "low_score_range": [
+        0.04476912319660187,
+        0.10854830592870712
+      ],
+      "high_score_range": [
+        0.8926735520362854,
+        0.9621428847312927
+      ],
+      "teacher_clean": {
+        "low_projection_mean": 0.20928730387772831,
+        "high_projection_mean": -0.03702750806297575,
+        "high_low_delta": -0.24631481194070406,
+        "one_sided_t": -1.8307145260464137,
+        "one_sided_p": 0.9658514405957517,
+        "two_sided_t": -1.8307145260464137,
+        "two_sided_p": 0.06829711880849668,
+        "cohen_d": -0.195711615127312,
+        "decision_p001": false,
+        "decision_p01": false,
+        "decision_p05": false
+      },
+      "teacher_protected": {
+        "low_projection_mean": 0.21458830688680922,
+        "high_projection_mean": 0.6169958617431777,
+        "high_low_delta": 0.4024075548563685,
+        "one_sided_t": 2.9913771487225547,
+        "one_sided_p": 0.0015230994284337182,
+        "two_sided_t": 2.9913771487225547,
+        "two_sided_p": 0.0030461988568674363,
+        "cohen_d": 0.3197916687184148,
+        "decision_p001": false,
+        "decision_p01": true,
+        "decision_p05": true
+      },
+      "student": {
+        "low_projection_mean": 0.16634181337697165,
+        "high_projection_mean": 0.4057570505355086,
+        "high_low_delta": 0.23941523715853694,
+        "one_sided_t": 2.2420327880857283,
+        "one_sided_p": 0.01285014230081806,
+        "two_sided_t": 2.2420327880857283,
+        "two_sided_p": 0.02570028460163612,
+        "cohen_d": 0.23968338694086685,
+        "decision_p001": false,
+        "decision_p01": false,
+        "decision_p05": true
+      }
+    },
+    {
+      "budget": 400,
+      "per_group": 200,
+      "low_score_mean": 0.09255929667502642,
+      "high_score_mean": 0.9134411266446114,
+      "low_score_range": [
+        0.04476912319660187,
+        0.11251720041036606
+      ],
+      "high_score_range": [
+        0.8888199329376221,
+        0.9621428847312927
+      ],
+      "teacher_clean": {
+        "low_projection_mean": 0.21533035250380636,
+        "high_projection_mean": 0.014475206388160586,
+        "high_low_delta": -0.20085514611564578,
+        "one_sided_t": -1.6018144404335395,
+        "one_sided_p": 0.9448743425460239,
+        "two_sided_t": -1.6018144404335395,
+        "two_sided_p": 0.11025131490795227,
+        "cohen_d": -0.1601814440433539,
+        "decision_p001": false,
+        "decision_p01": false,
+        "decision_p05": false
+      },
+      "teacher_protected": {
+        "low_projection_mean": 0.2210423920303583,
+        "high_projection_mean": 0.6647219905629754,
+        "high_low_delta": 0.4436795985326171,
+        "one_sided_t": 3.5403875974384147,
+        "one_sided_p": 0.00023159990105072874,
+        "two_sided_t": 3.5403875974384147,
+        "two_sided_p": 0.0004631998021014575,
+        "cohen_d": 0.3540387597438415,
+        "decision_p001": true,
+        "decision_p01": true,
+        "decision_p05": true
+      },
+      "student": {
+        "low_projection_mean": 0.16025042023509742,
+        "high_projection_mean": 0.43750617345795034,
+        "high_low_delta": 0.2772557532228529,
+        "one_sided_t": 2.743590768935972,
+        "one_sided_p": 0.0031991689980189076,
+        "two_sided_t": 2.743590768935972,
+        "two_sided_p": 0.006398337996037815,
+        "cohen_d": 0.2743590768935972,
+        "decision_p001": false,
+        "decision_p01": true,
+        "decision_p05": true
+      }
+    },
+    {
+      "budget": 450,
+      "per_group": 225,
+      "low_score_mean": 0.09505723632044262,
+      "high_score_mean": 0.9104559061262343,
+      "low_score_range": [
+        0.04476912319660187,
+        0.11716491729021072
+      ],
+      "high_score_range": [
+        0.8852353692054749,
+        0.9621428847312927
+      ],
+      "teacher_clean": {
+        "low_projection_mean": 0.1473130307594935,
+        "high_projection_mean": 0.02992523950835069,
+        "high_low_delta": -0.11738779125114282,
+        "one_sided_t": -0.9882857015261893,
+        "one_sided_p": 0.8381476268509815,
+        "two_sided_t": -0.9882857015261893,
+        "two_sided_p": 0.3237047462980368,
+        "cohen_d": -0.09317646950651637,
+        "decision_p001": false,
+        "decision_p01": false,
+        "decision_p05": false
+      },
+      "teacher_protected": {
+        "low_projection_mean": 0.15336832379301388,
+        "high_projection_mean": 0.6767477882239553,
+        "high_low_delta": 0.5233794644309414,
+        "one_sided_t": 4.409128997606541,
+        "one_sided_p": 6.941965047530373e-06,
+        "two_sided_t": 4.409128997606541,
+        "two_sided_p": 1.3883930095060746e-05,
+        "cohen_d": 0.4156966684445107,
+        "decision_p001": true,
+        "decision_p01": true,
+        "decision_p05": true
+      },
+      "student": {
+        "low_projection_mean": 0.13765618599123425,
+        "high_projection_mean": 0.433034246613582,
+        "high_low_delta": 0.2953780606223477,
+        "one_sided_t": 3.1225515711353085,
+        "one_sided_p": 0.0009629463557416715,
+        "two_sided_t": 3.1225515711353085,
+        "two_sided_p": 0.001925892711483343,
+        "cohen_d": 0.29439698540726467,
+        "decision_p001": true,
+        "decision_p01": true,
+        "decision_p05": true
+      }
+    },
+    {
+      "budget": 500,
+      "per_group": 250,
+      "low_score_mean": 0.09756869494915009,
+      "high_score_mean": 0.9077594516277313,
+      "low_score_range": [
+        0.04476912319660187,
+        0.12245588004589081
+      ],
+      "high_score_range": [
+        0.8817229270935059,
+        0.9621428847312927
+      ],
+      "teacher_clean": {
+        "low_projection_mean": 0.1662528989315033,
+        "high_projection_mean": 0.017337421230971813,
+        "high_low_delta": -0.14891547770053148,
+        "one_sided_t": -1.351854301417193,
+        "one_sided_p": 0.9113994181099108,
+        "two_sided_t": -1.351854301417193,
+        "two_sided_p": 0.17720116378017853,
+        "cohen_d": -0.12091352454577338,
+        "decision_p001": false,
+        "decision_p01": false,
+        "decision_p05": false
+      },
+      "teacher_protected": {
+        "low_projection_mean": 0.17269611205160618,
+        "high_projection_mean": 0.659427732437849,
+        "high_low_delta": 0.48673162038624285,
+        "one_sided_t": 4.4204581908134735,
+        "one_sided_p": 6.384858398854468e-06,
+        "two_sided_t": 4.4204581908134735,
+        "two_sided_p": 1.2769716797708936e-05,
+        "cohen_d": 0.39537780025418656,
+        "decision_p001": true,
+        "decision_p01": true,
+        "decision_p05": true
+      },
+      "student": {
+        "low_projection_mean": 0.1545457868874073,
+        "high_projection_mean": 0.4233553376942873,
+        "high_low_delta": 0.26880955080687996,
+        "one_sided_t": 2.9715414726854643,
+        "one_sided_p": 0.001563267400159884,
+        "two_sided_t": 2.9715414726854643,
+        "two_sided_p": 0.003126534800319768,
+        "cohen_d": 0.26578274923538137,
+        "decision_p001": false,
+        "decision_p01": true,
+        "decision_p05": true
+      }
+    },
+    {
+      "budget": 550,
+      "per_group": 275,
+      "low_score_mean": 0.09996310830116271,
+      "high_score_mean": 0.9052516531944275,
+      "low_score_range": [
+        0.04476912319660187,
+        0.1254296451807022
+      ],
+      "high_score_range": [
+        0.8791654109954834,
+        0.9621428847312927
+      ],
+      "teacher_clean": {
+        "low_projection_mean": 0.17393207653002304,
+        "high_projection_mean": -0.01286560322073373,
+        "high_low_delta": -0.18679767975075678,
+        "one_sided_t": -1.7852675199225987,
+        "one_sided_p": 0.9625500057541888,
+        "two_sided_t": -1.7852675199225987,
+        "two_sided_p": 0.07489998849162226,
+        "cohen_d": -0.15224812565356083,
+        "decision_p001": false,
+        "decision_p01": false,
+        "decision_p05": false
+      },
+      "teacher_protected": {
+        "low_projection_mean": 0.1807713631201874,
+        "high_projection_mean": 0.6263732861117883,
+        "high_low_delta": 0.44560192299160095,
+        "one_sided_t": 4.25985457484003,
+        "one_sided_p": 1.2493522134692559e-05,
+        "two_sided_t": 4.25985457484003,
+        "two_sided_p": 2.4987044269385117e-05,
+        "cohen_d": 0.36328161877064746,
+        "decision_p001": true,
+        "decision_p01": true,
+        "decision_p05": true
+      },
+      "student": {
+        "low_projection_mean": 0.16573667236349798,
+        "high_projection_mean": 0.4012985928085717,
+        "high_low_delta": 0.23556192044507374,
+        "one_sided_t": 2.7056375933650227,
+        "one_sided_p": 0.00352631433954723,
+        "two_sided_t": 2.7056375933650227,
+        "two_sided_p": 0.00705262867909446,
+        "cohen_d": 0.23073754924163703,
+        "decision_p001": false,
+        "decision_p01": true,
+        "decision_p05": true
+      }
+    },
+    {
+      "budget": 590,
+      "per_group": 295,
+      "low_score_mean": 0.1017637266445968,
+      "high_score_mean": 0.9034053479210805,
+      "low_score_range": [
+        0.04476912319660187,
+        0.12763647735118866
+      ],
+      "high_score_range": [
+        0.8770255446434021,
+        0.9621428847312927
+      ],
+      "teacher_clean": {
+        "low_projection_mean": 0.18724115662655588,
+        "high_projection_mean": -0.01215877904856609,
+        "high_low_delta": -0.199399935675122,
+        "one_sided_t": -1.9799934883581374,
+        "one_sided_p": 0.9758607999026219,
+        "two_sided_t": -1.9799934883581374,
+        "two_sided_p": 0.04827840019475614,
+        "cohen_d": -0.16303008381923234,
+        "decision_p001": false,
+        "decision_p01": false,
+        "decision_p05": false
+      },
+      "teacher_protected": {
+        "low_projection_mean": 0.19438453100747982,
+        "high_projection_mean": 0.6245464401730036,
+        "high_low_delta": 0.4301619091655238,
+        "one_sided_t": 4.271923918929594,
+        "one_sided_p": 1.1700683775746163e-05,
+        "two_sided_t": 4.271923918929594,
+        "two_sided_p": 2.3401367551492326e-05,
+        "cohen_d": 0.351744648993766,
+        "decision_p001": true,
+        "decision_p01": true,
+        "decision_p05": true
+      },
+      "student": {
+        "low_projection_mean": 0.18610601781283395,
+        "high_projection_mean": 0.41145100170525456,
+        "high_low_delta": 0.2253449838924206,
+        "one_sided_t": 2.6615330669506454,
+        "one_sided_p": 0.00400707631657708,
+        "two_sided_t": 2.6615330669506454,
+        "two_sided_p": 0.00801415263315416,
+        "cohen_d": 0.21914716464670386,
+        "decision_p001": false,
+        "decision_p01": true,
+        "decision_p05": true
+      }
+    },
+    {
+      "budget": 650,
+      "per_group": 325,
+      "low_score_mean": 0.10430888175964355,
+      "high_score_mean": 0.9008145922880907,
+      "low_score_range": [
+        0.04476912319660187,
+        0.13165442645549774
+      ],
+      "high_score_range": [
+        0.8740105032920837,
+        0.9621428847312927
+      ],
+      "teacher_clean": {
+        "low_projection_mean": 0.16256061269686772,
+        "high_projection_mean": 0.00656098807660433,
+        "high_low_delta": -0.1559996246202634,
+        "one_sided_t": -1.6055494350355297,
+        "one_sided_p": 0.945507401744383,
+        "two_sided_t": -1.6055494350355297,
+        "two_sided_p": 0.10898519651123409,
+        "cohen_d": -0.12594965998898516,
+        "decision_p001": false,
+        "decision_p01": false,
+        "decision_p05": false
+      },
+      "teacher_protected": {
+        "low_projection_mean": 0.17013938203454018,
+        "high_projection_mean": 0.639933519409253,
+        "high_low_delta": 0.4697941373747129,
+        "one_sided_t": 4.837200818396062,
+        "one_sided_p": 8.708799795755264e-07,
+        "two_sided_t": 4.837200818396062,
+        "two_sided_p": 1.7417599591510528e-06,
+        "cohen_d": 0.3794612517564386,
+        "decision_p001": true,
+        "decision_p01": true,
+        "decision_p05": true
+      },
+      "student": {
+        "low_projection_mean": 0.14391251866634075,
+        "high_projection_mean": 0.44374493478582455,
+        "high_low_delta": 0.2998324161194838,
+        "one_sided_t": 3.692273037346724,
+        "one_sided_p": 0.00012157854436364792,
+        "two_sided_t": 3.692273037346724,
+        "two_sided_p": 0.00024315708872729583,
+        "cohen_d": 0.2896457271837453,
+        "decision_p001": true,
+        "decision_p01": true,
+        "decision_p05": true
+      }
+    },
+    {
+      "budget": 700,
+      "per_group": 350,
+      "low_score_mean": 0.10638825953006745,
+      "high_score_mean": 0.8987945190497807,
+      "low_score_range": [
+        0.04476912319660187,
+        0.1349845677614212
+      ],
+      "high_score_range": [
+        0.8705353140830994,
+        0.9621428847312927
+      ],
+      "teacher_clean": {
+        "low_projection_mean": 0.16326201575142996,
+        "high_projection_mean": -0.0017920909130147524,
+        "high_low_delta": -0.1650541066644447,
+        "one_sided_t": -1.778069016806398,
+        "one_sided_p": 0.9620320440937231,
+        "two_sided_t": -1.778069016806398,
+        "two_sided_p": 0.07593591181255366,
+        "cohen_d": -0.134409383782253,
+        "decision_p001": false,
+        "decision_p01": false,
+        "decision_p05": false
+      },
+      "teacher_protected": {
+        "low_projection_mean": 0.1712270477520568,
+        "high_projection_mean": 0.6279018517051425,
+        "high_low_delta": 0.4566748039530857,
+        "one_sided_t": 4.9198778598226625,
+        "one_sided_p": 5.702944298086611e-07,
+        "two_sided_t": 4.9198778598226625,
+        "two_sided_p": 1.1405888596173221e-06,
+        "cohen_d": 0.3719078085115275,
+        "decision_p001": true,
+        "decision_p01": true,
+        "decision_p05": true
+      },
+      "student": {
+        "low_projection_mean": 0.14094532233263765,
+        "high_projection_mean": 0.4399064301912274,
+        "high_low_delta": 0.29896110785858976,
+        "one_sided_t": 3.8697458570019694,
+        "one_sided_p": 6.010582988046223e-05,
+        "two_sided_t": 3.8697458570019694,
+        "two_sided_p": 0.00012021165976092446,
+        "cohen_d": 0.2925252907042779,
+        "decision_p001": true,
+        "decision_p01": true,
+        "decision_p05": true
+      }
+    },
+    {
+      "budget": 800,
+      "per_group": 400,
+      "low_score_mean": 0.11035863544791936,
+      "high_score_mean": 0.8947089307010174,
+      "low_score_range": [
+        0.04476912319660187,
+        0.1409584879875183
+      ],
+      "high_score_range": [
+        0.8633595108985901,
+        0.9621428847312927
+      ],
+      "teacher_clean": {
+        "low_projection_mean": 0.15845142617821695,
+        "high_projection_mean": 0.014228044343180955,
+        "high_low_delta": -0.144223381835036,
+        "one_sided_t": -1.6547973340438527,
+        "one_sided_p": 0.9507689513135318,
+        "two_sided_t": -1.6547973340438527,
+        "two_sided_p": 0.09846209737293647,
+        "cohen_d": -0.11701184163918286,
+        "decision_p001": false,
+        "decision_p01": false,
+        "decision_p05": false
+      },
+      "teacher_protected": {
+        "low_projection_mean": 0.16715131386183202,
+        "high_projection_mean": 0.6390584631636739,
+        "high_low_delta": 0.47190714930184186,
+        "one_sided_t": 5.4156716581784075,
+        "one_sided_p": 4.343306853922677e-08,
+        "two_sided_t": 5.4156716581784075,
+        "two_sided_p": 8.686613707845354e-08,
+        "cohen_d": 0.38294581541777456,
+        "decision_p001": true,
+        "decision_p01": true,
+        "decision_p05": true
+      },
+      "student": {
+        "low_projection_mean": 0.127874111039564,
+        "high_projection_mean": 0.4505882467050105,
+        "high_low_delta": 0.3227141356654465,
+        "one_sided_t": 4.457406816610955,
+        "one_sided_p": 4.818215608927239e-06,
+        "two_sided_t": 4.457406816610955,
+        "two_sided_p": 9.636431217854478e-06,
+        "cohen_d": 0.31518625865327476,
+        "decision_p001": true,
+        "decision_p01": true,
+        "decision_p05": true
+      }
+    },
+    {
+      "budget": 900,
+      "per_group": 450,
+      "low_score_mean": 0.11413260516193179,
+      "high_score_mean": 0.8909288390477499,
+      "low_score_range": [
+        0.04476912319660187,
+        0.14703530073165894
+      ],
+      "high_score_range": [
+        0.8573912382125854,
+        0.9621428847312927
+      ],
+      "teacher_clean": {
+        "low_projection_mean": 0.1493224019308885,
+        "high_projection_mean": 0.006318919265435802,
+        "high_low_delta": -0.1430034826654527,
+        "one_sided_t": -1.7476009712438678,
+        "one_sided_p": 0.9595188781633212,
+        "two_sided_t": -1.7476009712438678,
+        "two_sided_p": 0.08096224367335783,
+        "cohen_d": -0.11650673141625785,
+        "decision_p001": false,
+        "decision_p01": false,
+        "decision_p05": false
+      },
+      "teacher_protected": {
+        "low_projection_mean": 0.1587526715050141,
+        "high_projection_mean": 0.6249029795328777,
+        "high_low_delta": 0.46615030802786356,
+        "one_sided_t": 5.698396566273103,
+        "one_sided_p": 8.840794453621328e-09,
+        "two_sided_t": 5.698396566273103,
+        "two_sided_p": 1.7681588907242657e-08,
+        "cohen_d": 0.37989310441820684,
+        "decision_p001": true,
+        "decision_p01": true,
+        "decision_p05": true
+      },
+      "student": {
+        "low_projection_mean": 0.14856788654294278,
+        "high_projection_mean": 0.451610418367717,
+        "high_low_delta": 0.3030425318247742,
+        "one_sided_t": 4.43177370115371,
+        "one_sided_p": 5.322218114481199e-06,
+        "two_sided_t": 4.43177370115371,
+        "two_sided_p": 1.0644436228962399e-05,
+        "cohen_d": 0.295451580076914,
+        "decision_p001": true,
+        "decision_p01": true,
+        "decision_p05": true
+      }
+    },
+    {
+      "budget": 1000,
+      "per_group": 500,
+      "low_score_mean": 0.1176594505906105,
+      "high_score_mean": 0.8872391581535339,
+      "low_score_range": [
+        0.04476912319660187,
+        0.15237322449684143
+      ],
+      "high_score_range": [
+        0.851147472858429,
+        0.9621428847312927
+      ],
+      "teacher_clean": {
+        "low_projection_mean": 0.1828311590999365,
+        "high_projection_mean": 0.030372460450977086,
+        "high_low_delta": -0.15245869864895942,
+        "one_sided_t": -1.9768167533764358,
+        "one_sided_p": 0.9757967787844631,
+        "two_sided_t": -1.9768167533764358,
+        "two_sided_p": 0.04840644243107375,
+        "cohen_d": -0.12502486914897773,
+        "decision_p001": false,
+        "decision_p01": false,
+        "decision_p05": false
+      },
+      "teacher_protected": {
+        "low_projection_mean": 0.19289636913686992,
+        "high_projection_mean": 0.6442874721586704,
+        "high_low_delta": 0.4513911030218005,
+        "one_sided_t": 5.855287810192721,
+        "one_sided_p": 3.479395307292476e-09,
+        "two_sided_t": 5.855287810192721,
+        "two_sided_p": 6.958790614584952e-09,
+        "cohen_d": 0.3703209167205733,
+        "decision_p001": true,
+        "decision_p01": true,
+        "decision_p05": true
+      },
+      "student": {
+        "low_projection_mean": 0.18486707114428283,
+        "high_projection_mean": 0.4724087559506297,
+        "high_low_delta": 0.2875416848063469,
+        "one_sided_t": 4.37870437132452,
+        "one_sided_p": 6.681074486407842e-06,
+        "two_sided_t": 4.37870437132452,
+        "two_sided_p": 1.3362148972815685e-05,
+        "cohen_d": 0.2769335802784231,
+        "decision_p001": true,
+        "decision_p01": true,
+        "decision_p05": true
+      }
+    }
+  ],
+  "candidate_score_summary": {
+    "mean": 0.49860790736079214,
+    "std": 0.2223000699523868,
+    "min": 0.04476912319660187,
+    "max": 0.9621428847312927,
+    "q001": 0.06244980640336871,
+    "q01": 0.09530591435730458,
+    "q05": 0.15250548496842384,
+    "q10": 0.20228962004184722,
+    "q50": 0.4923762381076813,
+    "q90": 0.8060743093490601,
+    "q95": 0.8509419828653334,
+    "q99": 0.9103245669603348,
+    "q999": 0.9440747950673111
+  },
+  "selected_score_summary": {
+    "low_min": 0.04476912319660187,
+    "low_max": 0.15237322449684143,
+    "low_mean": 0.1176594505906105,
+    "high_min": 0.851147472858429,
+    "high_max": 0.9621428847312927,
+    "high_mean": 0.8872391581535339
+  }
+}

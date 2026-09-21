@@ -1,0 +1,114 @@
+{
+  "teacher_feature_dir": "outputs/fid_kid_inception_2000_students_teacher_real",
+  "score_csv": "outputs/dataset_protected_30000_sigmoid_K8_s003_L50_1000step/source15k_scores_and_projection.csv",
+  "num_teacher_for_scorer": 2000,
+  "num_student_images_per_model": 6400,
+  "split_budgets": [
+    200,
+    400,
+    800
+  ],
+  "best_alpha": 1000.0,
+  "validation": [
+    {
+      "alpha": 0.001,
+      "val_mse": 0.14753262375958115,
+      "val_corr": 0.2232336787830915
+    },
+    {
+      "alpha": 0.01,
+      "val_mse": 0.14741967141941972,
+      "val_corr": 0.2233639083223676
+    },
+    {
+      "alpha": 0.1,
+      "val_mse": 0.14630690716464603,
+      "val_corr": 0.22465493028194508
+    },
+    {
+      "alpha": 1.0,
+      "val_mse": 0.13661254164001324,
+      "val_corr": 0.23656121006381792
+    },
+    {
+      "alpha": 10.0,
+      "val_mse": 0.09483265698141116,
+      "val_corr": 0.3074388318598562
+    },
+    {
+      "alpha": 100.0,
+      "val_mse": 0.052764683662676,
+      "val_corr": 0.45071583026165024
+    },
+    {
+      "alpha": 1000.0,
+      "val_mse": 0.03786586540720264,
+      "val_corr": 0.5438814726198663
+    }
+  ],
+  "teacher_fit_corr": 0.8245992296951307,
+  "models": {
+    "protected": {
+      "score_mean": 0.5240250555957158,
+      "score_std": 0.14594200716915745,
+      "projection_mean": 0.2644007527406211,
+      "projection_std": 1.021752844322163,
+      "score_projection_corr": 0.0910090916297334
+    },
+    "clean": {
+      "score_mean": 0.5246920146320327,
+      "score_std": 0.14723792796250113,
+      "projection_mean": 0.040529060607514114,
+      "projection_std": 1.0528810780978097,
+      "score_projection_corr": -0.0686345082519715
+    },
+    "constant": {
+      "score_mean": 0.5239649981228328,
+      "score_std": 0.1463952166578981,
+      "projection_mean": 0.3048603623062081,
+      "projection_std": 1.0217448496314214,
+      "score_projection_corr": -0.05053520255121906
+    }
+  },
+  "matched_margin": [
+    {
+      "budget": 200,
+      "num_splits": 32,
+      "positive_margins": 26,
+      "exact_one_sided_sign_p": 0.0002675263676792383,
+      "mean_margin": 0.17722476346476468,
+      "median_margin": 0.1846005945559591,
+      "min_margin": -0.17633460689336058,
+      "max_margin": 0.5601979670301079,
+      "protected_decision_p005_splits": 4,
+      "clean_decision_p005_splits": 0,
+      "constant_decision_p005_splits": 0
+    },
+    {
+      "budget": 400,
+      "num_splits": 16,
+      "positive_margins": 15,
+      "exact_one_sided_sign_p": 0.0002593994140625,
+      "mean_margin": 0.2266695094751776,
+      "median_margin": 0.2289640153897926,
+      "min_margin": -0.008765473533421775,
+      "max_margin": 0.35313117038458586,
+      "protected_decision_p005_splits": 1,
+      "clean_decision_p005_splits": 0,
+      "constant_decision_p005_splits": 0
+    },
+    {
+      "budget": 800,
+      "num_splits": 8,
+      "positive_margins": 8,
+      "exact_one_sided_sign_p": 0.00390625,
+      "mean_margin": 0.2266728713392513,
+      "median_margin": 0.21536549864802512,
+      "min_margin": 0.13613014851929617,
+      "max_margin": 0.3597484895633533,
+      "protected_decision_p005_splits": 4,
+      "clean_decision_p005_splits": 0,
+      "constant_decision_p005_splits": 0
+    }
+  ]
+}

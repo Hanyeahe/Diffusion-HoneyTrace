@@ -1,0 +1,29 @@
+[
+  {
+    "bias_strength": 0.0,
+    "source": "teacher_clean_s003_eval",
+    "high_low_gap": -0.15063808858394623,
+    "one_sided_p": 0.9849543236953818,
+    "paired_mae": 0.0,
+    "paired_projection_shift": 0.0,
+    "num_images": 2000
+  },
+  {
+    "bias_strength": 0.02,
+    "source": "exp_sigmoid_fixedbias_2000_K8_q1090_L50_1000step",
+    "high_low_gap": 0.2295917272567749,
+    "one_sided_p": 0.0006288363538318728,
+    "paired_mae": 0.0011222024520739068,
+    "paired_projection_shift": 0.15132135152816772,
+    "num_images": 2000
+  },
+  {
+    "bias_strength": 0.03,
+    "source": "eval_student_teacher_2000_s003_1000step_ema_30k",
+    "high_low_gap": 0.3197891116142273,
+    "one_sided_p": 2.3553061839899518e-06,
+    "paired_mae": 0.001734518096782267,
+    "paired_projection_shift": 0.23395172134041786,
+    "num_images": 2000
+  }
+]
